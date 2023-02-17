@@ -1,5 +1,5 @@
 {
-    "name": "jasny/sso",
+    "name": "monolynx/sso-php56",
     "description": "Simple Single Sign-On",
     "keywords": ["sso", "auth"],
     "license": "MIT",

@@ -365,10 +365,10 @@ class Server
      */
     protected function getHeader($request, $key)
     {
-        return $this->test($request, $key);
+        return $this->getHeaderLine($request, $key);
     }
 
-    private function test($request, $key)
+    private function getHeaderLine($request, $key)
     {
         if ($request === null) {
             $headerKey = 'HTTP_' . str_replace('-', '_', strtoupper($key));
